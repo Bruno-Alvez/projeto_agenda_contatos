@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Lobster", sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background-color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, white , rgba(0, 128, 0, 0.49));
+    padding-top:100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0 40px;
+}
+
+header img {
+    height: 100px;
+    margin-right: 16px;
+}
+
+header h1 {
+    font-size: 85px;
+    font-weight: lighter;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    flex: 1;
+}
+
+form {
+    display: flex;
+    align-items: baseline;
+    max-width: 960px;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+form input {
+    font-size: 16px;
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 4px;
+    margin-right: 16px;
+}
+
+form h2 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 3px;
+}
+
+form button {
+    color: white;
+    padding: 4px;
+    background-color: green;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+table {
+    width: 100%;
+    background-color: white;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+thead th {
+    background-color: rgba(0, 128, 0, 0.978);
+    color: white;
+    font-size: 25px;
+    padding: 6px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: lighter;
+}
+
+tbody td {
+    padding: 6px;
+    border-bottom: 1px solid white;
+    font-size: 18px;
+}
+
+tfoot td {
+    font-weight: bold;
+    padding: 2px;
+    text-align: right;
+    font-size: 14px;
+    border-radius: 0 0 10px 10px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #e1f5fe;
+    cursor: pointer;
+}
+
+td {
+    text-align: center;
+}  
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #333;
+    border-top: 1px solid #ccc;
+    margin-top: auto;
+}
